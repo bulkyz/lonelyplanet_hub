@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid #CCCCCC;
+    max-width: 90%;
+    margin: 12px;
+    padding: 12px;
+    padding-top: 90px;
+    /* background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url('/assets/images/froppy.jpg');
+    background-size: cover;
+    background-repeat:no-repeat; */
+}
+
+.card > h2 {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.card > p {
+    margin: 0;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "LonelyPlanet",
+    "short_name": "LonelyPlanet",
+    "start_url": "/?home=true",
+    "icons": [
+        {
+            "src": "assets/images/froppy.jpeg",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#FFFFFF",
+    "display": "fullscreen",
+    "orientation": "portrait"
+}
