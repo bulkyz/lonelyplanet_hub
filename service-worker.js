@@ -3,6 +3,6 @@ importScripts(
   );
 
   workbox.routing.registerRoute(
-    ({request}) => request.destination === 'images',
+    ({request}) => request.destination === './assets/images',
     new workbox.strategies.NetworkFirst()
   );
