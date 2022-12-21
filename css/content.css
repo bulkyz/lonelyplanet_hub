@@ -46,17 +46,28 @@
 }
 
 .posts {
-
+    height: 100%;
 }
 
 .screen {
-
+    overflow-x: hidden;
 }
 
 #wrapper-a {
     overflow: hidden;
     flex-direction: column;
     height: 100%;
-    margin: 24px;
     text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+#wrapper-f {
+    overflow: hidden;
+    height: 100%;
+}
+
+.inspiration-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }

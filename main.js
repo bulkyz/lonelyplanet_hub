@@ -13,3 +13,8 @@ function navClickHandler(event) {
   }
   this.classList.add("active");
 }
+
+function startJourney() {
+  console.log("Journey started");
+  window.location.href = '#screenF'
+}
