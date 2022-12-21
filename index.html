@@ -27,35 +27,39 @@
             <div class="screens">
                 <div class="screen" id="screenA">
                     <div class="posts">
-                        <p>Suggestions for your destinations here.</p>
+                        <div id="wrapper-a" class="center">
+                            <p id="special-text">Journey through and get inspiration for your next travel destination.</p>
+                            <button class="primary-btn">Start journey</button>
+                        </div>
+
                     </div>
                 </div>
                 <div class="screen" id="screenB">
                     <div class="posts">
                         <div class="card">
                             <h2>Welcome!</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dolor placeat, quam natus culpa
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dolor placeat, quam natus culpa
                                 quibusdam impedit laboriosam praesentium labore.</p>
                         </div>
                         
                         <div class="card">
                             <h2>New here? Click here!</h2>
-                            <p>App explanation</p>
+                            <p class="card-text">App explanation</p>
                         </div>
 
                         <div class="card">
                             <h2>New to backpacking?</h2>
-                            <p>Beginner tips!</p>
+                            <p class="card-text">Beginner tips!</p>
                         </div>
 
                         <div class="card">
                             <h2>Title</h2>
-                            <p>News article from Lonely Planet</p>
+                            <p class="card-text">News article from Lonely Planet</p>
                             <a href="">Read more</a>
                         </div>
                         <div class="card">
                             <h2>Title</h2>
-                            <p>Favorited stuff as a card</p>
+                            <p class="card-text">Favorited stuff as a card</p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +88,7 @@
                         <p>
                             <img src="/assets/icons/flight.svg" alt="" class="nav-icon">
                         </p>
-                        <p>Destinations</p> 
+                        <p>Inspiration</p> 
                     </a>
                 </div>
         
@@ -95,11 +99,11 @@
                         <p>Home</p> 
                     </a></div>
         
-                <div class="tab"><a href="#screenC">
+                <!-- <div class="tab"><a href="#screenC">
                         <p>
                             <img src="/assets/icons/location.svg" alt="" class="nav-icon">
                         <p>Local</p> 
-                    </a></div>
+                    </a></div> -->
             </div>
         </nav>
 
@@ -108,6 +112,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('service-worker.js');
+            console.log('Service Worker Registered');
         }
     </script>
 </body>

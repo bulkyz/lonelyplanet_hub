@@ -14,7 +14,49 @@
     margin-bottom: 12px;
 }
 
-.card > p {
+.card-text {
     margin: 0;
     margin-bottom: 12px;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+}
+
+#special-text {
+    font-weight: 600;
+    font-size: 20;
+    color: #7E838B;
+}
+
+.primary-btn {
+    border: none;
+    background-color: #0057D9;
+    color: white;
+    font-weight: 600;
+    padding: 16px 24px 16px 24px;
+    border-radius: 999px;
+    font-size: 16px;
+}
+
+.primary-btn:hover {
+    background-color: #2879f1;
+}
+
+.primary-btn:active {
+    background-color: #679ff3;
+}
+
+.posts {
+
+}
+
+.screen {
+
+}
+
+#wrapper-a {
+    overflow: hidden;
+    flex-direction: column;
+    height: 100%;
+    margin: 24px;
+    text-align: center;
 }
