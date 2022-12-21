@@ -67,7 +67,37 @@
 }
 
 .inspiration-img {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+}
+
+.choice-image {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    transition: .2s ease-in-out;
+}
+
+.choice-image:hover {
+    filter: contrast(120%);
+}
+
+.first:hover {
+    transform: rotate(0.01turn) scale(1.1);
+}
+
+.second:hover {
+    transform: rotate(-0.01turn) scale(1.1);
+}
+
+.third:hover {
+    transform: rotate(0.01turn) scale(1.1);
+}
+
+.wrapper-choice-image {
+    height: 33%;
+    overflow: hidden;
 }
