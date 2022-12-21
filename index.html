@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +11,17 @@
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <div class="app-container">
-        
+
         <header>
             <a href="" class="nav-icon">
                 <!-- <img src="/assets/icons/form.svg" alt="preferences"> -->
             </a>
-            <a href="#screenB"><h1>Backpacky</h1></a>
+            <a href="#screenB">
+                <h1>Backpacky</h1>
+            </a>
             <a href="#screenE" class="nav-icon">
                 <img src="/assets/icons/settings.svg" alt="settings">
             </a>
@@ -28,7 +32,8 @@
                 <div class="screen" id="screenA">
                     <div class="posts">
                         <div id="wrapper-a" class="center">
-                            <p id="special-text">Journey through and get inspiration for your next travel destination.</p>
+                            <p id="special-text">Journey through and get inspiration for your next travel destination.
+                            </p>
                             <button class="primary-btn" onclick="startJourney()">Start journey</button>
                         </div>
 
@@ -38,10 +43,11 @@
                     <div class="posts">
                         <div class="card">
                             <h2>Welcome!</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dolor placeat, quam natus culpa
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                                expedita dolor placeat, quam natus culpa
                                 quibusdam impedit laboriosam praesentium labore.</p>
                         </div>
-                        
+
                         <div class="card">
                             <h2>New here? Click here!</h2>
                             <p class="card-text">App explanation</p>
@@ -82,7 +88,9 @@
                 <div class="screen" id="screenF">
                     <div class="posts">
                         <div id="wrapper-f">
-                            <img src="/assets/images/tropical.jpg" class="inspiration-img">
+                            <a href="#screenG">
+                                <img src="/assets/images/tropical.jpg" class="inspiration-img">
+                            </a>
                         </div>
 
                     </div>
@@ -90,13 +98,32 @@
 
                 <div class="screen" id="screenG">
                     <div class="posts">
-                        <p>G</p>
+                        <div id="wrapper-f">
+                            <a href="#screenH">
+                                <img src="/assets/images/downtown.jpg" class="inspiration-img">
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="screen" id="screenH">
                     <div class="posts">
-                        <p>H</p>
+                        <div id="wrapper-f">
+                            <a href="#screenI">
+                                <img src="/assets/images/forest.jpg" class="inspiration-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="screen" id="screenI">
+                    <div class="posts">
+                        <div id="wrapper-f">
+                            <a href="#screenB">
+                                <p>Choose one here.</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -110,17 +137,17 @@
                         <p>
                             <img src="/assets/icons/flight.svg" alt="" class="nav-icon">
                         </p>
-                        <p>Inspiration</p> 
+                        <p>Inspiration</p>
                     </a>
                 </div>
-        
+
                 <div class="tab"><a href="#screenB">
                         <p>
                             <img src="/assets/icons/home.svg" alt="" class="nav-icon">
                         </p>
-                        <p>Home</p> 
+                        <p>Home</p>
                     </a></div>
-        
+
                 <!-- <div class="tab"><a href="#screenC">
                         <p>
                             <img src="/assets/icons/location.svg" alt="" class="nav-icon">
@@ -138,4 +165,5 @@
         }
     </script>
 </body>
+
 </html>

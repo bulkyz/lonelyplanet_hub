@@ -39,7 +39,7 @@ h1 {
 }
 
 .screens {
-    grid-template-columns: repeat(8, 100vw);
+    grid-template-columns: repeat(9, 100vw);
     overflow-x: hidden;
     display: grid;
     height: calc(100vh - var(--nav-height) - var(--header-height));

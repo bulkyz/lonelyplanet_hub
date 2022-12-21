@@ -67,7 +67,7 @@
 }
 
 .inspiration-img {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
 }
