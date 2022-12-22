@@ -2,23 +2,34 @@
     border: 1px solid #CCCCCC;
     max-width: 90%;
     margin: 12px;
-    padding: 12px;
-    padding-top: 90px;
+    /* padding: 12px; */
+    /* padding-top: 90px; */
+
     /* background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url('/assets/images/froppy.jpg');
     background-size: cover;
     background-repeat:no-repeat; */
 }
 
-.card > h2 {
-    margin: 0;
-    margin-bottom: 12px;
+h2 {
+    margin: 0px 0 4px 0;
+    padding: 0;
 }
 
 .card-text {
-    margin: 0;
-    margin-bottom: 12px;
+    margin: 4px 0 4px 0;
     color: rgb(102, 102, 102);
     font-weight: 500;
+}
+
+.header-image {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-content-wrapper {
+    padding: 8px;
 }
 
 #special-text {
@@ -69,7 +80,8 @@
 .inspiration-img {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 50%;
+    width: 100%;
 }
 
 .choice-image {
